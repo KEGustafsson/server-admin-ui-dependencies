@@ -1,0 +1,26 @@
+{
+  "name": "@signalk/server-admin-ui-dependencies",
+  "version": "1.0.0",
+  "description": "UI dependencies of the admin UI exposed to plugins that expose federated components",
+  "main": "index.js",
+  "author": "teppo.kurki@iki.fi",
+  "license": "Apache-2.0",
+  "optionalDependencies": {
+    "validate-peer-dependencies": "^1.1.0"
+  },
+  "peerDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@types/react": "^16.3.18",
+    "bootstrap": "^4.6.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^1.9.1",
+    "react": "^16.13.18",
+    "react-dom": "^16.13.1",
+    "react-redux": "^5.1.2",
+    "react-select": "^3.1.0",
+    "reactstrap": "^5.0.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.4.0",
+    "simple-line-icons": "^2.5.5"
+  }
+}
